@@ -6,7 +6,7 @@ header {
     background-color: #2A3D45;
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 12fr;
+    grid-template-columns: 1fr 6fr;
 
 }
 header a{
@@ -31,7 +31,7 @@ nav{
 nav p{
     text-align: center;
     color:#F6D5B0;
-    font-size: 70px;
+    font-size: 30px;
 }
 main{
     display: grid;
@@ -65,7 +65,7 @@ main{
 }
 footer {
     background-color: #73683B;
-    font-size: 50px;
+    font-size: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
@@ -89,4 +89,38 @@ footer p,a{
 }
 .social{
     align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* subpage 1 - FAQ */
+#faq{
+    background-color: #73683B;
+    color: #F6D5B0;
+    border: dashed #F6D5B0;
+    align-self: center;
+    font-family: labrada;
+}
+#top{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    padding: 150px;
+    grid-gap: 100px;
+}
+#zoe {
+    height: 100%;
+    width: 100%;
+}
+#faq{
+    height: 100%;
+    width: 100%;
+}
+#faq h3{
+    font-size: 35px;
+}
+#faq h4{
+    font-size: 25px;
+}
+#faq p{
+    font-size: 20px;
 }
