@@ -114,6 +114,7 @@ footer p,a{
 #faq{
     height: 100%;
     width: 100%;
+    text-align: center;
 }
 #faq h3{
     font-size: 35px;
@@ -123,4 +124,17 @@ footer p,a{
 }
 #faq p{
     font-size: 20px;
+}
+#bottom{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#mountain{
+    margin: 0 auto;
+}
+#mom{
+    width: 100%;
 }
