@@ -26,8 +26,8 @@
   /* Main content */
   .main {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
-    background: gray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   body{
-    background-color: gray;
+    background-color: lightgray;
   }
