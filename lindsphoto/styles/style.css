@@ -35,14 +35,10 @@ nav p{
 }
 #home-imgs{
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-gap: 60px;
-    padding: 60px;
-    z-index: 1;
 }
 #cactus{
     grid-column: 1/2;
-    width: 100%;
+    width: 159%;
     height: 100%;
 }
 #alli{
@@ -78,11 +74,15 @@ footer p,a{
     background-color: #73683B;
     color: #F6D5B0;
     font-family: Labrada, Times New Roman;
-    font-size: 30px;
+    font-size: 15px;
     border: dashed #F6D5B0;
     text-align: center;
     padding: 30px;
     grid-column: 2/3;
+    position: absolute;
+    width: 34%;
+    justify-self: center;
+    align-self: center;
 }
 .social{
     align-self: center;
