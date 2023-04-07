@@ -99,38 +99,39 @@ footer p,a{
 }
 #top{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
     justify-items: center;
-    padding: 150px;
     grid-gap: 100px;
 }
 #zoe {
-    height: 100%;
-    width: 100%;
+    height: 78%;
+    width: 78%;
+    align-self: center;
 }
 #faq{
-    height: 100%;
-    width: 100%;
+    height: fit-content;
+    width: 120%;
     text-align: center;
+    padding: 30px;
 }
 #faq h3{
-    font-size: 35px;
-}
-#faq h4{
     font-size: 25px;
 }
+#faq h4{
+    font-size: 15px;
+}
 #faq p{
-    font-size: 20px;
+    font-size: 15px;
 }
 #bottom{
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 #mountain{
     margin: 0 auto;
+    width: 83%;
+    height: 96;
 }
 #mom{
     width: 100%;
