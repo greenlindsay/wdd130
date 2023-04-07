@@ -31,10 +31,7 @@ nav{
 nav p{
     text-align: center;
     color:#F6D5B0;
-    font-size: 30px;
-}
-main{
-    display: grid;
+    font-size: 20px;
 }
 #home-imgs{
     display: grid;
@@ -137,4 +134,25 @@ footer p,a{
 }
 #mom{
     width: 100%;
+}
+#about-me{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    padding: 62px;
+    grid-gap: 80px;
+}
+#about-me p{
+    color: #F6D5B0;
+    background-color: #73683B;
+    font-family: labrada;
+    border: dashed #F6D5B0;
+    grid-column: 1/2;
+    text-align: center;
+    height:fit-content;
+    padding: 30px;
+}
+#me-img{
+    height: 25%;
+
 }
